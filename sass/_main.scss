@@ -1,0 +1,28 @@
+.about {
+  position: relative;
+  top: 7.61%;
+  left: 23.96%;
+  padding-top: 7.61%;
+    &__title {
+      margin-bottom: 1%;
+      font-size: 1.125rem;
+      color: #24386a;
+    }
+    &__text__one {
+      margin-bottom: 1%;
+      font-size: 1.75rem;
+      }
+    &__text__two {
+      margin-bottom: 1%;
+      }
+  }
+.about__inner {
+  display: flex;
+  }
+.about__img__area {
+  max-width: 800px;
+  max-height: 600px;
+  margin-top: -10%;
+  margin-left: 5.99%;
+  }
+

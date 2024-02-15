@@ -1,0 +1,164 @@
+.header {
+  display: inline-block;
+  padding-top: 52%;
+  max-width: 1920px;
+  width: 100%;
+  max-height: 1000px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../img/mainvisual_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -3;
+  }
+  .header__icon {
+    position: absolute;
+    top: 0;
+    left: 42.42%;
+    z-index: 3;
+  }
+  .header__inner {
+    display: flex;
+    max-width: 998px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 24.43%;
+    justify-content: space-between;
+    z-index: 5;
+  }
+  .header__company__name {
+    margin-top: 47px;
+    max-width: 280px;
+    width: 100%;
+    & img {
+      width: 100%;
+      }
+  }
+  .header__company__contact{
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+  }
+  .header__company__tel {
+    margin-top: 32px;
+    font-size: 1.5rem;
+    &__first{
+        font-size: 1rem;
+        }
+  }
+  .contact__btn {
+    margin-top: 34px;
+    margin-right: 0;
+    a{
+      margin-left: 27px;
+      padding: 14px 43px;
+      color: #fff;
+      background-color: #d1c61a;
+      }
+  }
+  .header__company__nav__list {
+    display: flex;
+    margin-top: 32px;
+    column-gap: 20px;
+  }
+  .header__company__nav__item {
+    a {
+      font-size: .9375rem;
+      color: #fff;
+      letter-spacing: .075em
+      }
+  }
+  .mainvisual {
+    max-width: 1820px;
+    position: absolute;
+    top: 0;
+    left: 5.2%;
+    align-items: center;
+  }
+  .mainvisual__img {
+    max-width: 1820px;
+    width: 100%;
+    height: 53.125rem;
+      z-index: -2;
+  }
+  .mainvisual__line__one {
+    max-width: 1920px;
+    width: 5.3%;
+    height: 5.815%;
+    position: absolute;
+    top: 17%;
+    left: -5.3%;
+    background-color: #80e04e;
+    border: 1px solid #000;
+  }
+  .mainvisual__line__two {
+    max-width: 1920px;
+    width: 19.78%;
+    height: 7%;
+    position: absolute;
+    top: 8.55%;
+    left: 0;
+    background-color: #80e04e;
+    border: 1px solid #000;
+  }
+  .mainvisual__line__three {
+    max-width: 1920px;
+    width: 27.47%;
+    height: 4.72%;
+    position: absolute;
+    top: 19.25%;
+    left: 19.78%;
+    background-color: #80e04e;
+    border: 1px solid #000;
+  }
+  .mainvisual__line__four {
+    max-width: 1920px;
+    width: 27.47%;
+    height: 10.6%;
+    position: absolute;
+    top: 28.35%;
+    left: 47.25%;
+    background-color: #80e04e;
+    border: 1px solid #000;
+  }
+  .mainvisual__line__five {
+    max-width: 1920px;
+    width: 19.78%;
+    height: 10.3%;
+    position: absolute;
+    top: 22.35%;
+    left: 74.72%;
+    background-color: #80e04e;
+    border: 1px solid #000;
+  }
+  .mainvisual__line__six {
+    max-width: 1920px;
+    width: 5.5%;
+    height: 4.9%;
+    position: absolute;
+    top: 17.25%;
+    left: 94.5%;
+    background-color: #80e04e;
+    border: 1px solid #000;
+  }
+  .mainvisual__line__seven {
+    max-width: 1920px;
+    width: 7.64%;
+    height: 17.5%;
+    position: absolute;
+    top: 99.9%;
+    left: 5.39%;
+    background-color: #d1c61a;
+    border: 1px solid #000;
+  }
+  .mainvisual__text__img {
+    position: absolute;
+    top: 29.1%;
+    left: 19.38%;
+    max-width: 470px;
+    width: 100%;
+  }
