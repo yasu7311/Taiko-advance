@@ -1,8 +1,17 @@
-.products__title {
+.products {
+  max-width: 1920px;
+  width: 100%;
+  background-image: url(../img/products_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .products__title {
+  text-align: center;
   &__main {
     margin-top: 119px;
     font-size: 4.0625rem;
-    background: linear-gradient(#24386a 50%, #000 50%)
+    background: linear-gradient(#24386a 50%, #000 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white_space:nowrap;
@@ -11,4 +20,7 @@
     margin-top: 22px;
     font-size: 1.125rem;
     }
+  .products__text {
+    margin-top: 63px;
   }
+}
