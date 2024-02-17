@@ -368,7 +368,7 @@ select {
   background: linear-gradient(#24386a 50%, #000 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* white_space: nowrap; */
+  white_space: nowrap;
 }
 .products__title__sub {
   margin-top: 22px;
@@ -394,7 +394,8 @@ select {
   display: block;
   max-width: 300px;
   width: 100%;
-  margin: 0 auto;
+  margin-top: 13px;
+  text-align: center;
 }
 .products__flexbox .products__btn {
   display: flex;
