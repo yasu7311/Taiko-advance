@@ -15,14 +15,16 @@
     text-align: center;
   &__main {
     font-size: 4.0625rem;
+    letter-spacing: 0.075em;
     background: linear-gradient(#24386a 50%, #000 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    white_space:nowrap;
+    // white_space:nowrap;
     }
   &__sub {
     margin-top: 22px;
     font-size: 1.125rem;
+    letter-spacing: 0.1em;
     }
   .products__text {
     margin-top: 63px;
@@ -38,13 +40,13 @@
   }
   .products__item {
     & img {
-      vertical-align: baseline;
+      vertical-align: bottom;
     }
      &__text {
       display:block;
       max-width: 300px;
       width: 100%;
-      margin-top: 13px;
+      margin-top: 21px;
       text-align: center;
     }
   }

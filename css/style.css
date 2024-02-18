@@ -284,11 +284,11 @@ select {
   border: 1px solid #000;
 }
 
-.mainvisual__line__seven {
+.header__line__seven {
   width: 7.64%;
   height: 17.5%;
   position: absolute;
-  top: 99.9%;
+  bottom: 0%;
   left: 5.39%;
   background-color: #d1c61a;
   border: 1px solid #000;
@@ -367,14 +367,15 @@ select {
 }
 .products__title__main {
   font-size: 4.0625rem;
+  letter-spacing: 0.075em;
   background: linear-gradient(#24386a 50%, #000 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  white_space: nowrap;
 }
 .products__title__sub {
   margin-top: 22px;
   font-size: 1.125rem;
+  letter-spacing: 0.1em;
 }
 .products__title .products__text {
   margin-top: 63px;
@@ -390,13 +391,13 @@ select {
   column-gap: 52px;
 }
 .products__flexbox .products__item img {
-  vertical-align: baseline;
+  vertical-align: bottom;
 }
 .products__flexbox .products__item__text {
   display: block;
   max-width: 300px;
   width: 100%;
-  margin-top: 13px;
+  margin-top: 21px;
   text-align: center;
 }
 .products__flexbox .products__btn {
@@ -411,6 +412,67 @@ select {
   position: relative;
 }
 .products__flexbox .products__btn img {
+  width: 30.34px;
+  height: 8.69px;
+  position: absolute;
+  right: 30px;
+}
+
+.facility {
+  height: 80vh;
+  background-color: #24356a;
+}
+
+.facility__inner {
+  display: flex;
+  width: 94.79%;
+  background-color: #eceff7;
+}
+
+.facility__img {
+  margin-top: 100px;
+}
+.facility__img img {
+  max-width: 900px;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.facility__title {
+  margin-top: 205px;
+  margin-left: 132px;
+  text-align: start;
+}
+.facility__title__main {
+  font-size: 4.0625rem;
+  letter-spacing: 0.075em;
+  background: linear-gradient(#24386a 50%, #000 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.facility__title__sub {
+  margin-top: 18px;
+  font-size: 1.125rem;
+  letter-spacing: 0.1em;
+}
+.facility__title .facility__text {
+  margin-top: 63px;
+  letter-spacing: 0.075em;
+  line-height: 2.63em;
+}
+
+.facility__btn {
+  display: flex;
+  width: 280px;
+  height: 70px;
+  margin-top: 119px;
+  color: #fff;
+  background-color: #24386a;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.facility__btn img {
   width: 30.34px;
   height: 8.69px;
   position: absolute;
