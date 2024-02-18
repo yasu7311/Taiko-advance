@@ -1,10 +1,14 @@
 .products {
   max-width: 1920px;
   width: 100%;
+  // margin-right: 9px;
+  margin-bottom: 8px;
   background-image: url(../img/products_bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  left: -9px;
 }
 .products__title {
     padding-top: 119px;
