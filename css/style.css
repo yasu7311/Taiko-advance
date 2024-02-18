@@ -368,6 +368,7 @@ select {
 .products__title__main {
   font-size: 4.0625rem;
   letter-spacing: 0.075em;
+  line-height: 1.3;
   background: linear-gradient(#24386a 50%, #000 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -419,7 +420,7 @@ select {
 }
 
 .facility {
-  height: 80vh;
+  height: 90vh;
   background-color: #24356a;
 }
 
@@ -435,6 +436,7 @@ select {
 .facility__img img {
   max-width: 900px;
   width: 100%;
+  height: 100%;
   vertical-align: bottom;
 }
 
@@ -446,6 +448,7 @@ select {
 .facility__title__main {
   font-size: 4.0625rem;
   letter-spacing: 0.075em;
+  line-height: 1.3;
   background: linear-gradient(#24386a 50%, #000 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -458,7 +461,7 @@ select {
 .facility__title .facility__text {
   margin-top: 63px;
   letter-spacing: 0.075em;
-  line-height: 2.63em;
+  line-height: 2.63;
 }
 
 .facility__btn {
@@ -466,6 +469,7 @@ select {
   width: 280px;
   height: 70px;
   margin-top: 119px;
+  margin-bottom: 136px;
   color: #fff;
   background-color: #24386a;
   justify-content: center;
@@ -477,6 +481,26 @@ select {
   height: 8.69px;
   position: absolute;
   right: 30px;
+}
+
+.facility__line__one {
+  max-width: 1820px;
+  width: 5.77%;
+  height: 10%;
+  position: absolute;
+  left: 34.12%;
+  background-color: #80e04e;
+  border: 1px solid #000;
+}
+
+.facility__line__two {
+  max-width: 1820px;
+  width: 4.4%;
+  height: 7%;
+  position: absolute;
+  left: 41.76%;
+  background-color: #80e04e;
+  border: 1px solid #000;
 }
 
 /*# sourceMappingURL=style.css.map */
