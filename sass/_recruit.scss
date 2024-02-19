@@ -8,17 +8,22 @@
 }
 .recruit__inner {
   display: flex;
-  justify-content:  center;
-  .recruit__title__main {
+  // justify-content:  center;
+  .recruit__title {
+    margin-top: 215px;
+    margin-left: 454px;
+    &__main {
     color: #fff;
-  font-size: 5.625rem;
-  letter-spacing: 0.833;
+    font-size: 5.625rem;
+    line-height: 1em;
+    letter-spacing: 0.833;
   }
+    }
   .recruit__btn {
     display: flex;
     width: 280px;
     height: 70px;
-    margin: 92px auto 0;
+    margin-top: 75px;
     color: #fff;
     background-color: #24386a;
     justify-content: center;
@@ -29,6 +34,16 @@
       height: 8.69px;
       position: absolute;
       right: 30px;
-      }
     }
+  }
+  &__textarea {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin-top: 137px;
+    margin-left: 338px;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.67em;
+    letter-spacing: 0.15
+  }
 }

@@ -514,18 +514,22 @@ select {
 
 .recruit__inner {
   display: flex;
-  justify-content: center;
+}
+.recruit__inner .recruit__title {
+  margin-top: 215px;
+  margin-left: 454px;
 }
 .recruit__inner .recruit__title__main {
   color: #fff;
   font-size: 5.625rem;
+  line-height: 1em;
   letter-spacing: 0.833;
 }
 .recruit__inner .recruit__btn {
   display: flex;
   width: 280px;
   height: 70px;
-  margin: 92px auto 0;
+  margin-top: 75px;
   color: #fff;
   background-color: #24386a;
   justify-content: center;
@@ -537,6 +541,16 @@ select {
   height: 8.69px;
   position: absolute;
   right: 30px;
+}
+.recruit__inner__textarea {
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  margin-top: 137px;
+  margin-left: 338px;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.67em;
+  letter-spacing: 0.15;
 }
 
 /*# sourceMappingURL=style.css.map */
