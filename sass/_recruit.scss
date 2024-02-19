@@ -1,0 +1,17 @@
+.recruit {
+  max-width: 1920px;
+  width: 100%;
+  height: 60vh;
+  background-image: url(../img/recruit_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.recruit__inner {
+  display: flex;
+  justify-content:  center;
+  .recruit__title__main {
+    color: #fff;
+  font-size: 5.625rem;
+  letter-spacing: 0.833;
+  }
+}
