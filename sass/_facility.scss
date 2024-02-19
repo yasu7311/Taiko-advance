@@ -1,6 +1,9 @@
 .facility {
-  height: 80vh;
+  max-height: 800px;
+  // height:100%;
+  height: 100vh;
   background-color: #24356a;
+  position: relative;
   }
 .facility__inner {
   display: flex;
@@ -9,6 +12,7 @@
 }
 .facility__img {
   margin-top: 100px;
+    // padding-bottom: 100px;
   & img {
     max-width: 900px;
     width: 100%;
@@ -46,7 +50,7 @@
     display: flex;
     width: 280px;
     height: 70px;
-    margin-top: 119px;
+    margin-top: 102px;
     margin-bottom: 119px;
     color: #fff;
     background-color: #24386a;
@@ -64,22 +68,24 @@
       }
     }
     .facility__line__one {
-    max-width: 1820px;
-    width: 5.77%;
-    height: 10%;
+    max-width: 105px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
     position: absolute;
-    // top: 1%;
     left: 34.12%;
     background-color: #80e04e;
     border: 1px solid #000;
   }
   .facility__line__two {
-    max-width: 1820px;
-    width: 4.4%;
-    height: 10%;
+    max-width: 80px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
     position: absolute;
     // top: 8.55%;
     left: 41.76%;
+    bottom: 0;
     background-color: #80e04e;
     border: 1px solid #000;
   }

@@ -2,13 +2,14 @@
   max-width: 1920px;
   width: 100%;
   height: 60vh;
-  background-image: url(../img/recruit_bg.jpg);
+  background-image: url(../img/recruit.png);
   background-position: center;
   background-size: cover;
+  vertical-align: bottom;
+  position: relative;
 }
 .recruit__inner {
   display: flex;
-  // justify-content:  center;
   .recruit__title {
     margin-top: 215px;
     margin-left: 454px;
@@ -44,6 +45,20 @@
     color: #fff;
     font-size: 3rem;
     line-height: 1.67em;
-    letter-spacing: 0.15
+    letter-spacing: 0.15em;
   }
 }
+.recruit__text {
+  // margin-right: 0;
+  // margin-bottom: -130px;
+  color: #24386a;
+  font-size: 150px;
+  font-weight: bold;
+  position: absolute;
+  right: -12px;
+  bottom: -15px;
+  // text-align: end;
+  line-height: 1;
+  letter-spacing: 0.075em;
+  opacity: 0.6
+  }
