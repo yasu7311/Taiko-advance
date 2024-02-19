@@ -14,4 +14,21 @@
   font-size: 5.625rem;
   letter-spacing: 0.833;
   }
+  .recruit__btn {
+    display: flex;
+    width: 280px;
+    height: 70px;
+    margin: 92px auto 0;
+    color: #fff;
+    background-color: #24386a;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    & img {
+      width: 30.34px;
+      height: 8.69px;
+      position: absolute;
+      right: 30px;
+      }
+    }
 }
