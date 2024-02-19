@@ -82,7 +82,6 @@ video {
 }
 
 body {
-  line-height: 1.5;
   max-width: 1920px;
 }
 
@@ -420,7 +419,7 @@ select {
 }
 
 .facility {
-  height: 90vh;
+  height: 80vh;
   background-color: #24356a;
 }
 
@@ -437,18 +436,18 @@ select {
   max-width: 900px;
   width: 100%;
   height: 100%;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 .facility__title {
-  margin-top: 205px;
+  margin-top: 188px;
   margin-left: 132px;
   text-align: start;
 }
 .facility__title__main {
   font-size: 4.0625rem;
   letter-spacing: 0.075em;
-  line-height: 1.3;
+  line-height: 1;
   background: linear-gradient(#24386a 50%, #000 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -457,11 +456,12 @@ select {
   margin-top: 18px;
   font-size: 1.125rem;
   letter-spacing: 0.1em;
+  line-height: 1;
 }
 .facility__title .facility__text {
-  margin-top: 63px;
+  margin-top: 38px;
   letter-spacing: 0.075em;
-  line-height: 2.63;
+  line-height: 2.063;
 }
 
 .facility__btn {
@@ -469,7 +469,7 @@ select {
   width: 280px;
   height: 70px;
   margin-top: 119px;
-  margin-bottom: 136px;
+  margin-bottom: 119px;
   color: #fff;
   background-color: #24386a;
   justify-content: center;
@@ -496,7 +496,7 @@ select {
 .facility__line__two {
   max-width: 1820px;
   width: 4.4%;
-  height: 7%;
+  height: 10%;
   position: absolute;
   left: 41.76%;
   background-color: #80e04e;
