@@ -12,44 +12,57 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: -3;
+}
+.header__icon {
+  position: absolute;
+  top: 0;
+  left: 42.42%;
+  z-index: 3;
+}
+.header__inner {
+  display: flex;
+  max-width: 998px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 24.43%;
+  justify-content: space-between;
+  z-index: 5;
+}
+.header__company__name {
+  margin-top: 47px;
+  max-width: 280px;
+  width: 100%;
+  color: #fff;
+  // & img {
+  //   width: 100%;
+  //   }
+  .header__name__main {
+    font-size: 0.875rem;
+    letter-spacing: 0.075em;
+    & span {
+      font-size: 1.125rem;
+      letter-spacing: 0.075em;
+    }
   }
-  .header__icon {
-    position: absolute;
-    top: 0;
-    left: 42.42%;
-    z-index: 3;
+  .header__name__sub {
+    font-size: 1.125rem;
+    letter-spacing: 0.075em;
   }
-  .header__inner {
-    display: flex;
-    max-width: 998px;
-    width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    left: 24.43%;
-    justify-content: space-between;
-    z-index: 5;
+}
+.header__company__contact{
+  display: flex;
+  color: #fff;
+  justify-content: flex-end;
+}
+.header__company__tel {
+  margin-top: 32px;
+  font-size: 1.5rem;
+  &__first{
+    font-size: 1rem;
   }
-  .header__company__name {
-    margin-top: 47px;
-    max-width: 280px;
-    width: 100%;
-    & img {
-      width: 100%;
-      }
-  }
-  .header__company__contact{
-    display: flex;
-    color: #fff;
-    justify-content: flex-end;
-  }
-  .header__company__tel {
-    margin-top: 32px;
-    font-size: 1.5rem;
-    &__first{
-        font-size: 1rem;
-        }
-  }
+}
   .contact__btn {
     margin-top: 34px;
     margin-right: 0;

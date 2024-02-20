@@ -175,9 +175,19 @@ select {
   margin-top: 47px;
   max-width: 280px;
   width: 100%;
+  color: #fff;
 }
-.header__company__name img {
-  width: 100%;
+.header__company__name .header__name__main {
+  font-size: 0.875rem;
+  letter-spacing: 0.075em;
+}
+.header__company__name .header__name__main span {
+  font-size: 1.125rem;
+  letter-spacing: 0.075em;
+}
+.header__company__name .header__name__sub {
+  font-size: 1.125rem;
+  letter-spacing: 0.075em;
 }
 
 .header__company__contact {
