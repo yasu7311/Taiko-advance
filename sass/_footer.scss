@@ -32,21 +32,40 @@
       font-weight: bold;
       column-gap: 39px;
       &__first {
+        .footer__nav__company {
+          margin-top: 5px;
+          line-height: 1em;
+          }
         .footer__nav__service {
-          margin-top: 39px;
+          margin-top: 25px;
+          line-height: 1em;
           }
         .footer__nav__products {
-          margin-top: 39px;
+          margin-top: 25px;
+          line-height: 1em;
           }
       }
       &__second {
+        .footer__nav__facility {
+          margin-top: 5px;
+          line-height: 1em;
+          }
         .footer__nav__recruit {
-          margin-top: 39px;
+          margin-top: 25px;
+          line-height: 1em;
+
           }
         .footer__nav__contact {
-          margin-top: 39px;
+          margin-top: 25px;
+          line-height: 1em;
           }
       }
+      & span {
+        display: block;
+        width: 1px;
+        height: 100px;
+        background-color: #d4dae9;
+        }
     }
   }
   .footer__copy {
