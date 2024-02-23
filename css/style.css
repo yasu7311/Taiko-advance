@@ -546,7 +546,7 @@ select {
   color: #fff;
   font-size: 5.625rem;
   line-height: 1em;
-  letter-spacing: 0.833;
+  letter-spacing: 0.833em;
 }
 .recruit__inner .recruit__btn {
   display: flex;
