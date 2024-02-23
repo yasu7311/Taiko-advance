@@ -80,7 +80,11 @@
       font-size: .9375rem;
       color: #fff;
       letter-spacing: .075em
-      }
+    }
+    a:hover {
+      text-decoration: underline 2px #24386a;
+      text-underline-offset: 8px;
+    }
   }
   .mainvisual {
     position: relative;
@@ -151,7 +155,7 @@
     height: 15%;
     position: absolute;
     bottom: 0;
-    left: 5.39%;
+    left: 10.16%;
     background-color: #d1c61a;
     border: 1px solid #000;
   }
