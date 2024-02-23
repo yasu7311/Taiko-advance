@@ -131,6 +131,10 @@ a {
   background: transparent;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 input,
 select {
   vertical-align: middle;
@@ -668,9 +672,8 @@ select {
   max-width: 1920px;
   width: 100%;
   height: 79.69%;
-  background-color: #eceff7;
   position: relative;
-  z-index: -3;
+  z-index: 10;
 }
 .contact__inner {
   display: flex;
@@ -708,25 +711,39 @@ select {
   color: #fff;
 }
 
-.contact__info__mail {
-  display: flex;
+.contact__mail {
+  display: block;
   width: 360px;
   height: 80px;
   margin-top: 52px;
   background-color: #d1c61a;
+}
+.contact__mail a {
+  color: #fff;
+}
+.contact__mail .contact__info__mail {
+  display: flex;
+  width: 360px;
+  height: 80px;
+  margin-top: 52px;
   justify-content: center;
   align-items: center;
 }
-.contact__info__mail .contact__mail__logo {
+.contact__mail .contact__info__mail .contact__mail__logo {
   display: flex;
   align-items: center;
 }
-.contact__info__mail p {
+.contact__mail .contact__info__mail p {
   margin-left: 19px;
   color: #fff;
   letter-spacing: 0.1em;
 }
 
+.footer {
+  position: relative;
+  background-color: #eceff7;
+  z-index: 5;
+}
 .footer__inner {
   display: flex;
   padding-top: 283px;
@@ -791,11 +808,31 @@ select {
   height: 100px;
   background-color: #d4dae9;
 }
+.footer__inner .footer__nav a {
+  color: #262626;
+}
 .footer .footer__copy {
   font-size: 0.75rem;
   text-align: center;
   padding-top: 88px;
   padding-bottom: 40px;
+}
+
+.pagetop {
+  position: fixed;
+  right: 100px;
+  bottom: -2px;
+  background: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+}
+
+.pagetop__arrow {
+  display: block;
+  height: 60px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */

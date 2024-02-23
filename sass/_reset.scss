@@ -130,7 +130,12 @@ a {
   text-decoration: none;
   vertical-align: baseline;
   background: transparent;
+  // cursor: pointer;
 }
+
+a:hover {
+  cursor: pointer;
+  }
 
 input,
 select {

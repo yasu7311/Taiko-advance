@@ -1,4 +1,7 @@
 .footer {
+  position: relative;
+  background-color: #eceff7;
+  z-index: 5;
   &__inner{
     display: flex;
     padding-top: 283px;
@@ -65,6 +68,9 @@
         width: 1px;
         height: 100px;
         background-color: #d4dae9;
+      }
+      & a {
+        color: #262626;
         }
     }
   }
@@ -74,4 +80,19 @@
     padding-top: 88px;
     padding-bottom: 40px;
     }
+}
+.pagetop {
+  position: fixed;
+  right: 100px;
+  bottom: -2px;
+  background: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+}
+.pagetop__arrow {
+  display: block;
+  height: 60px;
+  width: 60px;
 }
