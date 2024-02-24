@@ -81,9 +81,15 @@
     padding-bottom: 40px;
     }
 }
+.top__button {
+  max-width:1920px;
+  width:100%;
+  margin-left: 91.67%;
+  margin-right: 5.21%;
+  }
 .pagetop {
+  max-width:1920px;
   position: fixed;
-  right: 100px;
   bottom: -2px;
   background: #fff;
   display: none;

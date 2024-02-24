@@ -531,7 +531,7 @@ select {
 .recruit {
   max-width: 1920px;
   width: 100%;
-  height: 60vh;
+  height: 31.25%;
   background-image: url(../img/recruit.png);
   background-position: center;
   background-size: cover;
@@ -541,16 +541,17 @@ select {
 
 .recruit__inner {
   display: flex;
+  padding-bottom: 142px;
 }
 .recruit__inner .recruit__title {
   margin-top: 215px;
-  margin-left: 454px;
+  margin-left: 23.65%;
 }
 .recruit__inner .recruit__title__main {
   color: #fff;
   font-size: 5.625rem;
   line-height: 1em;
-  letter-spacing: 0.833em;
+  letter-spacing: 0.075em;
 }
 .recruit__inner .recruit__btn {
   display: flex;
@@ -572,8 +573,8 @@ select {
 .recruit__inner__textarea {
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
-  margin-top: 137px;
-  margin-left: 338px;
+  margin-top: 127px;
+  margin-left: 17.6%;
   color: #fff;
   font-size: 3rem;
   line-height: 1.67em;
@@ -822,9 +823,16 @@ select {
   padding-bottom: 40px;
 }
 
+.top__button {
+  max-width: 1920px;
+  width: 100%;
+  margin-left: 91.67%;
+  margin-right: 5.21%;
+}
+
 .pagetop {
+  max-width: 1920px;
   position: fixed;
-  right: 100px;
   bottom: -2px;
   background: #fff;
   display: none;
