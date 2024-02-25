@@ -1,4 +1,5 @@
 .facility {
+  padding-bottom: 100px;
   background-color: #24356a;
   position: relative;
   }
@@ -10,7 +11,7 @@
 .facility__img {
   margin-top: 100px;
   & img {
-    width: 49.45%;
+    width: 100%;
     vertical-align: top;
     }
   }
